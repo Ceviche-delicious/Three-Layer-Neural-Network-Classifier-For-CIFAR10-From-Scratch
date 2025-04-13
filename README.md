@@ -37,30 +37,30 @@ python search.py
   数据加载器参数：
 
   ```python
-dataloader_kwargs = {
-    "n_valid": 5000,
-    "batch_size": 256,
-}  
+  dataloader_kwargs = {
+      "n_valid": 5000,
+      "batch_size": 256,
+  }  
   ```
 
   SGD优化器参数：
 
   ```python
-optimizer_kwargs = {
-    "lr": 0.05,
-    "ld": 0.001,
-    "decay_rate": 0.95,
-    "decay_step": 375,
-}  
+  optimizer_kwargs = {
+      "lr": 0.05,
+      "ld": 0.001,
+      "decay_rate": 0.95,
+      "decay_step": 375,
+  }  
   ```
 
   训练器参数：
 
   ```python
-trainer_kwargs = {
-    "n_epochs": 200,
-    "eval_step": 1,
-} 
+  trainer_kwargs = {
+      "n_epochs": 200,
+      "eval_step": 1,
+  } 
   ```
   
 * 进入仓库根目录，运行：
@@ -80,16 +80,16 @@ trainer_kwargs = {
   数据加载器参数：
 
   ```python
-dataloaders_kwargs = {
-    "n_valid": 5000,
-    "batch_size": 256,
-}
+  dataloaders_kwargs = {
+      "n_valid": 5000,
+      "batch_size": 256,
+  }
   ```
 
   模型权重文件的路径：
 
   ```python
-ckpt_path = "models/model_epoch_200.pkl"
+  ckpt_path = "models/model_epoch_200.pkl"
   ```
 
 * 进入仓库根目录，运行：
@@ -108,7 +108,7 @@ ckpt_path = "models/model_epoch_200.pkl"
   模型权重文件的路径：
 
   ```python
-ckpt_path = "./models/model_epoch_200.pkl"
+  ckpt_path = "./models/model_epoch_200.pkl"
   ```
 
 * 进入仓库根目录，运行：
