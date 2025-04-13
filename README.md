@@ -2,7 +2,7 @@
 
 任务描述：
 
-本项目手工搭建三层神经网络分类器，在数据集 CIFAR-10 上进行训练以实现图像分类，模型权重下载地址：https://pan.baidu.com/s/1UhLgHyFwjUsqxrpv5gvHiw?pwd=i46g
+本项目手工搭建三层神经网络分类器，在数据集 CIFAR-10 上进行训练以实现图像分类，模型权重下载地址：https://pan.baidu.com/s/17aKx3PyByVJGtM30U5Iinw?pwd=eofy
 
 基本要求：
 * 本次作业要求自主实现反向传播，不允许使用 pytorch，tensorflow 等现成的支持自动微分的深度学习框架，可以使用 numpy；
