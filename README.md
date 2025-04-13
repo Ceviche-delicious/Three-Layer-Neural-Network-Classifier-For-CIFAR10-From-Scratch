@@ -27,11 +27,11 @@ python search.py
   神经网络结构参数：
 
   ```python
-nn_architecture = [
-    {"input_dim": 3072, "output_dim": 1024, "activation": "leakyrelu"},
-    {"input_dim": 1024, "output_dim": 256, "activation": "leakyrelu"},
-    {"input_dim": 256, "output_dim": 10, "activation": "softmax"},
-] 
+  nn_architecture = [
+      {"input_dim": 3072, "output_dim": 1024, "activation": "leakyrelu"},
+      {"input_dim": 1024, "output_dim": 256, "activation": "leakyrelu"},
+      {"input_dim": 256, "output_dim": 10, "activation": "softmax"},
+  ] 
   ```
 
   数据加载器参数：
